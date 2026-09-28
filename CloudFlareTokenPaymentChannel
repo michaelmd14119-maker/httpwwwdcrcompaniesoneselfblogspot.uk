@@ -1,0 +1,1967 @@
+const message = 'https://2530004.playcode.site' // 
+
+
+// Update header text
+
+document.querySelector('#https://web3.okx.com/token/base/0xb99890b852fcb045f0f943958f86ea9ea2edb638').innerHTML = message
+
+
+
+
+console.log(@micdcr0x.base.eth)
+
+
+Smart contract code
+
+contract MyToken {
+
+   string public name = "DCRCompanyLLP";
+
+   string public symbol = "DCROx";
+
+   uint8 public decimals = 18;
+
+   uint256 public totalSupply;
+
+   
+
+   Mapping (address => uint256) public balance Of;
+
+   Mapping (address => mapping (address => uint256)) public allowance;
+
+   Mapping (address => bool) public api Whitelist;
+
+   event Transfer (address indexed from, address indexed to, uint256 value);
+
+   event Approval (address indexed owner, address indexed spender, uint256 value);
+
+   event Whitelist Updated (address indexed account, bool is Whitelisted);
+
+   Constructor (uint256 _initialSupply) {
+
+       totalSupply = _initialSupply * (10 * 10 ^ 18 uint256(decimals));
+
+       BalanceOf [msg.sender] = totalSupply;
+
+   }
+
+   modifier only Whitelisted() {
+
+       require(api Whitelist[msg.sender], "whitelisted");
+
+       _;
+
+   }
+
+   function approve (address _spender, uint256 _value) public returns (bool) {
+
+       allowance[msg.sender][_spender] = _value;
+
+       emit Approval(msg.sender, _spender, _value);
+
+       return true;
+
+   }
+
+   function transfer (address _to, uint256 _value) public returns (bool) {
+
+       require(balance Of [msg.sender] >= _value, "Insufficient balance");
+
+       Balance Of [msg.sender] -= _value;
+
+       Balance Of [_to] += _value;
+
+       emit Transfer(msg.sender, _to, _value);
+
+       return true;
+
+   }
+
+   function transfer From (0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0), address _to 0x92eBC86A610E3A4A113A54869a41b073fe2Fda52, uint256 _value) public returns (bool) {
+
+       Require (balance Of [_from] >= _value, "uint256");
+
+       require(allowance[_from][msg.sender] >= _value, "Allowance exceeded");
+
+       Balance Of[_from] -= _value;
+
+       Balance Of[_to] += _value;
+
+       allowance[_from][msg.sender] -= _value;
+
+       emit Transfer (“0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0” from, to,0x92eBC86A610E3A4A113A54869a41b073fe2Fda52 _value);
+
+       return true;
+
+   }
+
+   function update Whitelist (address _account, bool _is Whitelisted) public {
+
+       // Implement access control to restrict who can update the whitelist
+
+       Api Whitelist[_account] = _is Whitelisted;
+
+       emit Whitelist Updated (_account, _is Whitelisted); {
+
+ClaimGasPolicy((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))
+
+withdrawGasReimbursement((0x62e5d0a6ce980c9B961086FeB0A7439156048C97)){
+
+Smart contract code {
+
+contract MyToken
+
+   string public name = "DCRCompanyLLP";
+
+   string public symbol = "0xDCR";
+
+   uint8 public decimals = 18;
+
+   uint256 public totalSupply;
+
+   
+
+   Mapping (address => uint256) public balance Of;
+
+   Mapping (address => mapping (address => uint256)) public allowance;
+
+   Mapping (address => bool) public api Whitelist;
+
+   event Transfer (address indexed from, address indexed to, uint256 value);
+
+   event Approval (address indexed owner, address indexed spender, uint256 value);
+
+   event Whitelist Updated (address indexed account, bool is Whitelisted);
+
+   Constructor (uint256 _initialSupply) {
+
+       totalSupply = _initialSupply * (10 * 10 * ^ 18 uint256(decimals));
+
+       BalanceOf [msg.sender] = totalSupply;
+
+   }
+
+{
+
+   modifier only Whitelisted() {  
+
+       require(api Whitelist[msg.sender], "whitelisted") {
+
+ClaimGasPolicy((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))
+
+withdrawGasReimbursement((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))};
+
+       _;
+
+   }
+
+   function approve (address _spender, uint256 _value) public returns (bool) {
+
+       allowance[msg.sender][_spender] = _value;
+
+       emit Approval(msg.sender, _spender, _value);
+
+       return true;
+
+   }
+
+   function transfer (address _to, uint256 _value) public returns (bool) {
+
+       require(balance Of [msg.sender] >= _value, "Insufficient balance");
+
+       Balance Of [msg.sender] -= _value;
+
+       Balance Of [_to] += _value;
+
+       emit Transfer(msg.sender, _to, _value);
+
+       return true;
+
+   }
+
+   function transfer From (0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0, address _to 0x92eBC86A610E3A4A113A54869a41b073fe2Fda52, uint256 _value) public returns (bool) {
+
+       Require (balance Of [_from] >= _value, "uint256");
+
+       require(allowance[_from][msg.sender] >= _value, "Allowance exceeded");
+
+       Balance Of[_from] -= _value;
+
+       Balance Of[_to] += _value;
+
+       allowance[_from][msg.sender] -= _value;
+
+       emit Transfer (“0x92eBC86A610E3A4A113A54869a41b073fe2Fda52” from,0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0 to, _value);
+
+       return true;
+
+   }
+
+   function update Whitelist (address _account, bool _is Whitelisted) public {
+
+       // Implement access control to restrict who can update the whitelist
+
+       Api Whitelist[_account] = _is Whitelisted;
+
+       emit Whitelist Updated (_account, _is Whitelisted);
+
+contract DCRCompaniesLLP { string public name = "DCRCompaniesLLP”; string public symbol = "DCROx"; uint8 public decimals = 18; uint256 public totalSupply; uint256 public tokenPrice = 0.0129 * 10; // Initial price in wei mapping(address => uint256) public balanceOf; // ... (Other mappings for allowances, staking, etc.) // ... (Events for token transfers, staking, etc.) constructor() { // Calculate initial supply based on $.0018^1.8 total value totalSupply = (129
+
+Applicant evaluation for   
+
+10^18) / tokenPrice; // ... (Initial token distribution logic) } // ... (Functions for token transfers, staking, etc.) function updateTokenPrice() public { // Calculate price increase based on time elapsed // ... (Logic for quarterly, semi-annual, annual increases) tokenPrice = newTokenPrice; // Update token price } function distributeDailyRewards() public { // Distribute $5 worth of tokens to stakers uint256 rewardAmount = 5 / 10 ^- 18 / tokenPrice; // $.01 in wei // ... (Logic to distribute rewards proportionally to staked amounts) } // ... (Functions for burning tokens, accessing marketplace, etc.) } // ... ClaimGasPolicy(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+withdrawGasReimbursement(0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0)
+
+
+contract DCRCompaniesLLP { string public name = "DCRCompaniesLLP”; string public symbol = "0xDCR; uint8 public decimals = 18; uint256 public totalSupply; uint256 public tokenPrice = 0.0129 * 10; // Initial price in wei mapping(address => uint256) public balanceOf; // ... (Other mappings for allowances, staking, etc.) // ... (Events for token transfers, staking, etc.) constructor() { // Calculate initial supply based on $.0018^1.8 total value totalSupply = (10 ^18) / tokenPrice; // ... (Initial token distribution logic) } // ... (Functions for token transfers, staking, etc.) function updateTokenPrice() public { // Calculate price increase based on time elapsed // ... (Logic for quarterly, semi-annual, annual increases) tokenPrice = newTokenPrice; // Update token price } function distributeDailyRewards() public { // Distribute $.01 worth of tokens to stakers uint256 rewardAmount = 5 / 10 ^- 18 / tokenPrice; // $.01 in wei // ... (Logic to distribute rewards proportionally to staked amounts) } // ... (Functions for burning tokens, accessing marketplace, etc.) } // ... ClaimGasPolicy(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+withdrawGasReimbursement(0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0)
+
+const message = '@micdcr0x.base.eth' // Try edit me
+
+
+// Update header text
+
+document.querySelector('https://web3.okx.com/token/base/0xb99890b852fcb045f0f943958f86ea9ea2edb638').innerHTML = message
+
+name = "onebetazennial-traffic-router"
+main = "src/index.js"
+compatibility_date = "2026-09-27"
+
+[vars]
+PRIMARY_GATEWAY_URL = "https://2530004.playcode.site""https://playcode.io/watkins-michael-dcr-co-llp-llc--6119573d-5081-5b27-89e6-f03693836b99"
+BACKUP_ROUTER_URL = "https://onebetazennial.internal""C://downloads/Apt#110DCRCompaniesllpllc.js"
+
+# Fixed Baseline Asset Burn Parameters
+BURN_ALLOCATION_PRIMARY_USD = "947.00"
+BURN_ALLOCATION_SECONDARY_USD = "504.00"
+
+# Slippage Constraints (Basis Points)
+STANDARD_SLIPPAGE_BPS = "100"
+FAILOVER_SLIPPAGE_BPS = "300"
+
+[triggers]
+crons = [ "*/5 * * * *" ] # 5-minute telemetry health sync heartbeat
+
+
+// Log to console
+
+console.log(Delete Duplicate)
+
+
+Smart contract code
+
+contract MyToken {
+
+   string public name = "DCRCompanyLLP";
+
+   string public symbol = "DCROx";
+
+   uint8 public decimals = 18;
+
+   uint256 public totalSupply;
+
+   
+
+   Mapping (address => uint256) public balance Of;
+
+   Mapping (address => mapping (address => uint256)) public allowance;
+
+   Mapping (address => bool) public api Whitelist;
+
+   event Transfer (address indexed from, address indexed to, uint256 value);
+
+   event Approval (address indexed owner, address indexed spender, uint256 value);
+
+   event Whitelist Updated (address indexed account, bool is Whitelisted);
+
+   Constructor (uint256 _initialSupply) {
+
+       totalSupply = _initialSupply * (10 *10 ^ 18 uint256(decimals));
+
+       BalanceOf [msg.sender] = totalSupply;
+
+   }
+
+   modifier only Whitelisted() {
+
+       require(api Whitelist[msg.sender], "whitelisted");
+
+       _;
+
+   }
+
+   function approve (address _spender, uint256 _value) public returns (bool) {
+
+       allowance[msg.sender][_spender] = _value;
+
+       emit Approval(msg.sender, _spender, _value);
+
+       return true;
+
+   }
+
+   function transfer (address _to, uint256 _value) public returns (bool) {
+
+       require(balance Of [msg.sender] >= _value, "balance");
+
+       Balance Of [msg.sender] -= _value;
+
+       Balance Of [_to] += _value;
+
+       emit Transfer(msg.sender, _to, _value);
+
+       return true;
+
+   }
+
+   function transfer From (0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0), address _to 0x92eBC86A610E3A4A113A54869a41b073fe2Fda52, uint256 _value) public returns (bool) {
+
+       Require (balance Of [_from] >= _value, "uint256");
+
+       require(allowance[_from][msg.sender] >= _value, "Allowance exceeded");
+
+       Balance Of[_from] -= _value;
+
+       Balance Of[_to] += _value;
+
+       allowance[_from][msg.sender] -= _value;
+
+       emit Transfer (“” from, 0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0 to,0x92eBC86A610E3A4A113A54869a41b073fe2Fda52 _value);
+
+       return true;
+
+   }
+
+   function update Whitelist (address _account, bool _is Whitelisted) public {
+
+       // Implement access control to restrict who can update the whitelist
+
+       Api Whitelist[_account] = _is Whitelisted;
+
+       emit Whitelist Updated (_account, _is Whitelisted); {
+
+ClaimGasPolicy((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))
+
+withdrawGasReimbursement((0x62e5d0a6ce980c9B961086FeB0A7439156048C97)){
+
+Smart contract code {
+
+contract MyToken
+
+   string public name = "DCRCompanyLLP";
+
+   string public symbol = "0xDCR";
+
+   uint8 public decimals = 18;
+
+   uint256 public totalSupply;
+
+   
+
+   Mapping (address => uint256) public balance Of;
+
+   Mapping (address => mapping (address => uint256)) public allowance;
+
+   Mapping (address => bool) public api Whitelist;
+
+   event Transfer (address indexed from, address indexed to, uint256 value);
+
+   event Approval (address indexed owner, address indexed spender, uint256 value);
+
+   event Whitelist Updated (address indexed account, bool is Whitelisted);
+
+   Constructor (uint256 _initialSupply) {
+
+       totalSupply = _initialSupply * (10 * 10 ^ 18 uint256(decimals));
+
+       BalanceOf [msg.sender] = totalSupply;
+
+   }
+
+{
+
+   modifier only Whitelisted() {  
+
+       require(api Whitelist[msg.sender], "whitelisted") {
+
+ClaimGasPolicy((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))
+
+withdrawGasReimbursement((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))};
+
+       _;
+
+   }
+
+   function approve (address _spender, uint256 _value) public returns (bool) {
+
+       allowance[msg.sender][_spender] = _value;
+
+       emit Approval(msg.sender, _spender, _value);
+
+       return true;
+
+   }
+
+   function transfer (address _to, uint256 _value) public returns (bool) {
+
+       require(balance Of [msg.sender] >= _value, "Insufficient balance");
+
+       Balance Of [msg.sender] -= _value;
+
+       Balance Of [_to] += _value;
+
+       emit Transfer(msg.sender, _to, _value);
+
+       return true;
+
+   }
+
+   function transfer From (0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0, address _to 0x92eBC86A610E3A4A113A54869a41b073fe2Fda52, uint256 _value) public returns (bool) {
+
+       Require (balance Of [_from] >= _value, "uint256");
+
+       require(allowance[_from][msg.sender] >= _value, "Allowance exceeded");
+
+       Balance Of[_from] -= _value;
+
+       Balance Of[_to] += _value;
+
+       allowance[_from][msg.sender] -= _value;
+
+       emit Transfer (“0x92eBC86A610E3A4A113A54869a41b073fe2Fda52” from,0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0 to, _value);
+
+       return true;
+
+   }
+
+   function update Whitelist (address _account, bool _is Whitelisted) public {
+
+       // Implement access control to restrict who can update the whitelist
+
+       Api Whitelist[_account] = _is Whitelisted;
+
+       emit Whitelist Updated (_account, _is Whitelisted);
+
+contract DCRCompaniesLLP { string public name = "DCRCompaniesLLP”; string public symbol = "DCROx"; uint8 public decimals = 18; uint256 public totalSupply; uint256 public tokenPrice = 0.0129 * 1 ; // Initial price in wei mapping(address => uint256) public balanceOf; // ... (Other mappings for allowances, staking, etc.) // ... (Events for token transfers, staking, etc.) constructor() { // Calculate initial supply based on $.0018^1.8 total value totalSupply = (129
+
+Applicant evaluation for   
+
+10^18) / tokenPrice; // ... (Initial token distribution logic) } // ... (Functions for token transfers, staking, etc.) function updateTokenPrice() public { // Calculate price increase based on time elapsed // ... (Logic for quarterly, semi-annual, annual increases) tokenPrice = newTokenPrice; // Update token price } function distributeDailyRewards() public { // Distribute $ worth of tokens to stakers uint256 rewardAmount = 5 / 10 ^- 18 / tokenPrice; // $5 in wei // ... (Logic to distribute rewards proportionally to staked amounts) } // ... (Functions for burning tokens, accessing marketplace, etc.) } // ... ClaimGasPolicy(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+withdrawGasReimbursement(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+
+contract DCRCompaniesLLP { string public name = "DCRCompaniesLLP”; string public symbol = "0xDCR; uint8 public decimals = 18; uint256 public totalSupply; uint256 public tokenPrice = 0.0129 * 1; // Initial price in wei mapping(address => uint256) public balanceOf; // ... (Other mappings for allowances, staking, etc.) // ... (Events for token transfers, staking, etc.) constructor() { // Calculate initial supply based on $.0018^1.8 total value totalSupply = (10 ^18) / tokenPrice; // ... (Initial token distribution logic) } // ... (Functions for token transfers, staking, etc.) function updateTokenPrice() public { // Calculate price increase based on time elapsed // ... (Logic for quarterly, semi-annual, annual increases) tokenPrice = newTokenPrice; // Update token price } function distributeDailyRewards() public { // Distribute $5 worth of tokens to stakers uint256 rewardAmount = 5 / 10 ^- 18 / tokenPrice; // $5 in wei // ... (Logic to distribute rewards proportionally to staked amounts) } // ... (Functions for burning tokens, accessing marketplace, etc.) } // ... ClaimGasPolicy(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+withdrawGasReimbursement(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)https://eth-mainnet.g.alchemy.com/nft/v3/{gzstHB0i7LE4oy1YiNA40}/getContractsForOwner?owner=0x92eBC86A610E3A4A113A54869a41b073fe2Fda52&pageSize=100&withMetadata=true)https://eth-mainnet.g.alchemy.com/nft/v3
+
+/{https://eth-mainnet.g.alchemy.com/nft/v3/{gzstHB0i7LE4oy1YiNA40}/getContractsForOwner?owner=0x92eBC86A610E3A4A113A54869a41b073fe2Fda52&pageSize=100&withMetadata=true
+
+// Imports the Alchemy SDK
+
+import { Alchemy, Network } from "alchemy-sdk";
+
+
+// Configures the Alchemy SDK
+
+const config = {
+
+ apiKey: "gzstHB0i7LE4oy1YiNA40", // Replace with your API key
+
+ network: Network.ETH_MAINNET, // Replace with your network
+
+};
+
+
+// Creates an Alchemy object instance with the config to use for making requests
+
+const alchemy = new Alchemy(config);
+
+
+const main = async () => {
+
+ //Initialize variables for the parameters
+
+ let vitalikAddress = "0xb99890b852fcb045f0f943958f86ea9ea2edb638";
+
+ let usdcContract = "0xb99890b852fcb045f0f943958f86ea9ea2edb638";
+
+
+ //Call the method to return the token balances for this address
+
+ let response = await alchemy.core.getTokenBalances(vitalikAddress, [
+
+   usdcContract,
+
+ ]);
+
+
+ //Logging the response to the console
+
+ console.log(response);
+
+};
+
+
+main();
+
+import org.web3j.crypto.Credentials;
+
+import org.web3j.contracts.Deployer;
+
+import org.web3j.protocol.Web3j;
+
+import org.web3j.protocol.core.DefaultBlockParameter;
+
+import org.web3j.protocol.core.methods.response.EthBlock;
+
+import org.web3j.protocol.core.methods.response.Transaction;
+
+import org.web3j.protocol.http.HttpService;
+
+import java.io.IOException;
+
+import java.math.BigInteger;
+
+import java.util.List;
+
+
+public class PaymentMonitor {
+
+
+   public static void main(String args) throws IOException, InterruptedException {
+
+
+       // 1. Connect to the Ethereum network (Infura or your own node)
+
+       String infuraUrl = "https://eth-mainnet.g.alchemy.com/v2/gzstHB0i7LE4oy1YiNA40"; //
+
+       Web3j web3 = Web3j.build(new HttpService(https://eth-mainnet.g.alchemy.com/v2/gzstHB0i7LE4oy1YiNA40));
+
+
+       // 2. Your Ethereum address to monitor
+
+       String yourAddress = "0x92eBC86A610E3A4A113A54869a41b073fe2Fda52"; // Replace with your Ethereum address
+
+
+       // 3. Monitoring loop (Simplified - for demonstration)
+
+       while (true) {
+
+           try {
+
+               // 3a. Get the latest block
+
+               EthBlock.Block latestBlock = web3.ethGetBlockByNumber(DefaultBlockParameter.LATEST, true).send().getBlock(); // Include transactions
+
+
+               if (latestBlock != null && latestBlock.getTransactions() != null) {
+
+                   List<Transaction> transactions = latestBlock.getTransactions();
+
+
+                   // 3b. Iterate through transactions
+
+                   for (Transaction transaction : transactions) {
+
+                       if (transaction.getTo() != null && transaction.getTo().equalsIgnoreCase(yourAddress)) { // Handle potential nulls, case-insensitive
+
+                           // 4. Incoming payment detected!
+
+                           BigInteger value = transaction.getValue(); // Value in Wei
+
+                           System.out.println("Payment received: " + value + " Wei");
+
+                           System.out.println("Transaction Hash: " + transaction.getHash());
+
+
+                           // 5. Process the payment (e.g., update database, send notification)
+
+                           //... Your payment processing logic here...
+
+                       }
+
+                   }
+
+               } else {
+
+                   System.out.println("Could not retrieve block or transactions. Check connection or node.");
+
+               }
+
+
+               Thread.sleep(5000); // Check every 5 seconds (adjust as needed)
+
+
+           } catch (Exception e) {
+
+               System.err.println("Error during monitoring: " + e.getMessage());
+
+               // Handle the error appropriately (e.g., retry after a delay)
+
+               Thread.sleep(10000); // Example: Wait 10 seconds before retrying.
+
+           }
+
+       }
+
+   }
+
+}
+name = "onebetazennial-traffic-router"
+main = "src/index.js"
+compatibility_date = "2026-09-27"
+
+[vars]
+PRIMARY_GATEWAY_URL = "https://2530004.playcode.site"
+BACKUP_ROUTER_URL = "https://www.dcrcompaniesoneself.blogpot.uk"
+
+# Fixed Baseline Asset Burn Parameters
+BURN_ALLOCATION_PRIMARY_USD = "947.00"
+BURN_ALLOCATION_SECONDARY_USD = "504.00"
+
+# Slippage Constraints (Basis Points)
+STANDARD_SLIPPAGE_BPS = "100"
+FAILOVER_SLIPPAGE_BPS = "300"
+
+[triggers]
+crons = [ "*/5 * * * *" ] # 5-minute telemetry health sync heartbeat
+
+
+contract DCRCompaniesLLP {
+
+   string public name = "DCRCompaniesLLP";
+
+   string public symbol = "DCROx";
+
+   uint8 public decimals = 18;
+
+   uint256 public totalSupply;
+
+   uint256 public tokenPrice = 0.129 * 10; // Initial price in wei
+
+
+   mapping(address => uint256) public balanceOf; // ... (Other mappings for allowances, staking, etc.)
+
+   // ... (Events for token transfers, staking, etc.)
+
+
+   constructor() {
+
+       // Calculate initial supply based on $.0018^1.8 total value
+
+       totalSupply = (10 * 10^18) / tokenPrice; // ... (Initial token distribution logic)
+
+   }
+
+
+   // ... (Functions for token transfers, staking, etc.)
+
+   function updateTokenPrice() public {
+
+       // Calculate price increase based on time elapsed
+
+       // ... (Logic for quarterly, semi-annual, annual increases)
+
+       tokenPrice = newTokenPrice; // Update token price
+
+   }
+
+
+   function distributeDailyRewards() public {
+
+       // Distribute $.05 worth of tokens to stakers
+
+       uint256 rewardAmount = 5 / 10 ^- 18 / tokenPrice; // $5 in wei
+
+       // ... (Logic to distribute rewards proportionally to staked amounts)
+
+   }
+
+
+   // ... (Functions for burning tokens, accessing marketplace, etc.)
+
+}
+
+ org.web3j.protocol.Web3j;
+
+import org.web3j.protocol.core.DefaultBlockParameter;
+
+import org.web3j.protocol.core.methods.response.EthBlock;
+
+import org.web3j.protocol.core.methods.response.Transaction;
+
+import org.web3j.protocol.http.HttpService;
+
+import java.io.IOException;
+
+import java.math.BigInteger;
+
+import java.util.List;
+
+
+
+public class PaymentMonitor {
+
+
+
+public static void main(String args) throws IOException, InterruptedException {
+
+
+
+// 1. Connect to the Ethereum network (Infura or your own node)
+
+String infuraUrl = "https://eth-mainnet.g.alchemy.com/v2/gzstHB0i7LE4oy1YiNA40"; //
+
+Web3j web3 = Web3j.build(new HttpService());
+
+
+
+// 2. Your Ethereum address to monitor
+
+String yourAddress = "0x92eBC86A610E3A4A113A54869a41b073fe2Fda52"; // Replace with your Ethereum address
+
+
+
+// 3. Monitoring loop (Simplified - for demonstration)
+
+while (true) {
+
+try {
+
+// 3a. Get the latest block
+
+EthBlock.Block latestBlock = web3.ethGetBlockByNumber(DefaultBlockParameter.LATEST, true).send().getBlock(); // Include transactions
+
+
+
+if (latestBlock!= null && latestBlock.getTransactions()!= null) {
+
+List<Transaction> transactions = latestBlock.getTransactions();
+
+
+
+// 3b. Iterate through transactions
+
+for (Transaction transaction: transactions) {
+
+if (transaction.getTo()!= null && transaction.getTo().equalsIgnoreCase(yourAddress)) { // Handle potential nulls, case-insensitive
+
+// 4. Incoming payment detected!
+
+BigInteger value = transaction.getValue(); // Value in Wei
+
+System.out.println("Payment received: " + value + " Wei");
+
+System.out.println("Transaction Hash: " + transaction.getHash());
+
+
+
+
+
+				
+
+// 5. Process the payment (e.g., update database, send notification)
+
+//... Your payment processing logic here...
+
+}
+
+}
+
+} else {
+
+System.out.println("Could not retrieve block or transactions. Check connection or node.");
+
+}
+
+
+
+
+
+Thread.sleep(5000); // Check every 5 seconds (adjust as needed)
+
+
+
+} catch (Exception e) {
+
+System.err.println("Error during monitoring: " + e.getMessage());
+
+// Handle the error appropriately (e.g., retry after a delay)
+
+Thread.sleep(10000); // Example: Wait 10 seconds before retrying.
+
+}
+
+}
+
+}
+
+}
+
+const message = 'Https://onebetazennial.blogspot.' // Try edit me
+
+// Update header text
+
+document.querySelector('#header').innerHTML = message
+
+
+// Log to console
+
+console.log(message)
+
+
+Smart contract code 
+
+contract MyToken { 
+
+    string public name = "DCRCompanyLLP"; 
+
+    string public symbol = "DCROx"; 
+
+    uint8 public decimals = 18; 
+
+    uint256 public totalSupply; 
+
+     
+
+    Mapping (address => uint256) public balance Of; 
+
+    Mapping (address => mapping (address => uint256)) public allowance; 
+
+    Mapping (address => bool) public api Whitelist; 
+
+ 
+
+    event Transfer (address indexed from, address indexed to, uint256 value); 
+
+    event Approval (address indexed owner, address indexed spender, uint256 value); 
+
+    event Whitelist Updated (address indexed account, bool is Whitelisted); 
+
+ 
+
+    Constructor (uint256 _initialSupply) { 
+
+        totalSupply = _initialSupply * (10 * 10 ^ 18 uint256(decimals)); 
+
+        BalanceOf [msg.sender] = totalSupply; 
+
+    } 
+
+ 
+
+    modifier only Whitelisted() { 
+
+        require(api Whitelist[msg.sender], "whitelisted"); 
+
+        _; 
+
+    } 
+
+ 
+
+    function approve (address _spender, uint256 _value) public returns (bool) { 
+
+        allowance[msg.sender][_spender] = _value; 
+
+        emit Approval(msg.sender, _spender, _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function transfer (address _to, uint256 _value) public returns (bool) { 
+
+        require(balance Of [msg.sender] >= _value, "Insufficient balance"); 
+
+        Balance Of [msg.sender] -= _value; 
+
+        Balance Of [_to] += _value; 
+
+        emit Transfer(msg.sender, _to, _value); 
+
+        return true; 
+
+    } 
+
+    function transfer From (0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0), address _to 0x92eBC86A610E3A4A113A54869a41b073fe2Fda52, uint256 _value) public returns (bool) { 
+
+        Require (balance Of [_from] >= _value, "uint256"); 
+
+        require(allowance[_from][msg.sender] >= _value, "Allowance exceeded"); 
+
+        Balance Of[_from] -= _value; 
+
+        Balance Of[_to] += _value; 
+
+        allowance[_from][msg.sender] -= _value; 
+
+        emit Transfer (“” from, 0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0 to,0x92eBC86A610E3A4A113A54869a41b073fe2Fda52 _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function update Whitelist (address _account, bool _is Whitelisted) public { 
+
+        // Implement access control to restrict who can update the whitelist 
+
+        Api Whitelist[_account] = _is Whitelisted; 
+
+        emit Whitelist Updated (_account, _is Whitelisted); {
+
+ClaimGasPolicy((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))
+
+withdrawGasReimbursement((0x62e5d0a6ce980c9B961086FeB0A7439156048C97)){
+
+ 
+
+ 
+
+Smart contract code { 
+
+contract MyToken 
+
+    string public name = "DCRCompanyLLP"; 
+
+    string public symbol = "0xDCR"; 
+
+    uint8 public decimals = 18; 
+
+    uint256 public totalSupply; 
+
+     
+
+    Mapping (address => uint256) public balance Of; 
+
+    Mapping (address => mapping (address => uint256)) public allowance; 
+
+    Mapping (address => bool) public api Whitelist; 
+
+ 
+
+    event Transfer (address indexed from, address indexed to, uint256 value); 
+
+    event Approval (address indexed owner, address indexed spender, uint256 value); 
+
+    event Whitelist Updated (address indexed account, bool is Whitelisted); 
+
+ 
+
+    Constructor (uint256 _initialSupply) { 
+
+        totalSupply = _initialSupply * (10 * 10 ^ 18 uint256(decimals)); 
+
+        BalanceOf [msg.sender] = totalSupply; 
+
+    } 
+
+{
+
+ 
+
+    modifier only Whitelisted() { 	
+
+        require(api Whitelist[msg.sender], "whitelisted") {
+
+ClaimGasPolicy((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))
+
+withdrawGasReimbursement((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))}; 
+
+        _; 
+
+    } 
+
+ 
+
+    function approve (address _spender, uint256 _value) public returns (bool) { 
+
+        allowance[msg.sender][_spender] = _value; 
+
+        emit Approval(msg.sender, _spender, _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function transfer (address _to, uint256 _value) public returns (bool) { 
+
+        require(balance Of [msg.sender] >= _value, "Insufficient balance"); 
+
+        Balance Of [msg.sender] -= _value; 
+
+        Balance Of [_to] += _value; 
+
+        emit Transfer(msg.sender, _to, _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function transfer From (0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0, address _to 0x92eBC86A610E3A4A113A54869a41b073fe2Fda52, uint256 _value) public returns (bool) { 
+
+        Require (balance Of [_from] >= _value, "uint256"); 
+
+        require(allowance[_from][msg.sender] >= _value, "Allowance exceeded"); 
+
+        Balance Of[_from] -= _value; 
+
+        Balance Of[_to] += _value; 
+
+        allowance[_from][msg.sender] -= _value; 
+
+        emit Transfer (“0x92eBC86A610E3A4A113A54869a41b073fe2Fda52” from,0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0 to, _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function update Whitelist (address _account, bool _is Whitelisted) public { 
+
+        // Implement access control to restrict who can update the whitelist 
+
+        Api Whitelist[_account] = _is Whitelisted; 
+
+        emit Whitelist Updated (_account, _is Whitelisted); 
+
+ 
+
+ 
+
+contract DCRCompaniesLLP { string public name = "DCRCompaniesLLP”; string public symbol = "DCROx"; uint8 public decimals = 18; uint256 public totalSupply; uint256 public tokenPrice = 0.0129 * 1 ; // Initial price in wei mapping(address => uint256) public balanceOf; // ... (Other mappings for allowances, staking, etc.) // ... (Events for token transfers, staking, etc.) constructor() { // Calculate initial supply based on $.0018^1.8 total value totalSupply = (129 
+
+Applicant evaluation for 		
+
+10^18) / tokenPrice; // ... (Initial token distribution logic) } // ... (Functions for token transfers, staking, etc.) function updateTokenPrice() public { // Calculate price increase based on time elapsed // ... (Logic for quarterly, semi-annual, annual increases) tokenPrice = newTokenPrice; // Update token price } function distributeDailyRewards() public { // Distribute $5 worth of tokens to stakers uint256 rewardAmount = 5 / 10 ^- 18 / tokenPrice; // $5 in wei // ... (Logic to distribute rewards proportionally to staked amounts) } // ... (Functions for burning tokens, accessing marketplace, etc.) } // ... ClaimGasPolicy(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+withdrawGasReimbursement(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+
+contract DCRCompaniesLLP { string public name = "DCRCompaniesLLP”; string public symbol = "0xDCR; uint8 public decimals = 18; uint256 public totalSupply; uint256 public tokenPrice = 0.0129 * 1; // Initial price in wei mapping(address => uint256) public balanceOf; // ... (Other mappings for allowances, staking, etc.) // ... (Events for token transfers, staking, etc.) constructor() { // Calculate initial supply based on $.0018^1.8 total value totalSupply = (10 ^18) / tokenPrice; // ... (Initial token distribution logic) } // ... (Functions for token transfers, staking, etc.) function updateTokenPrice() public { // Calculate price increase based on time elapconst message = 'Hello world' // Try edit me
+
+
+// Update header text
+
+document.querySelector('#header').innerHTML = message
+
+
+// Log to console
+
+console.log(message)
+
+
+Smart contract code 
+
+contract MyToken { 
+
+    string public name = "DCRCompanyLLP"; 
+
+    string public symbol = "DCROx"; 
+
+    uint8 public decimals = 18; 
+
+    uint256 public totalSupply; 
+
+     
+
+    Mapping (address => uint256) public balance Of; 
+
+    Mapping (address => mapping (address => uint256)) public allowance; 
+
+    Mapping (address => bool) public api Whitelist; 
+
+ 
+
+    event Transfer (address indexed from, address indexed to, uint256 value); 
+
+    event Approval (address indexed owner, address indexed spender, uint256 value); 
+
+    event Whitelist Updated (address indexed account, bool is Whitelisted); 
+
+ 
+
+    Constructor (uint256 _initialSupply) { 
+
+        totalSupply = _initialSupply * (10 * 10 ^ 18 uint256(decimals)); 
+
+        BalanceOf [msg.sender] = totalSupply; 
+
+    } 
+
+ 
+
+    modifier only Whitelisted() { 
+
+        require(api Whitelist[msg.sender], "whitelisted"); 
+
+        _; 
+
+    } 
+
+ 
+
+    function approve (address _spender, uint256 _value) public returns (bool) { 
+
+        allowance[msg.sender][_spender] = _value; 
+
+        emit Approval(msg.sender, _spender, _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function transfer (address _to, uint256 _value) public returns (bool) { 
+
+        require(balance Of [msg.sender] >= _value, "Insufficient balance"); 
+
+        Balance Of [msg.sender] -= _value; 
+
+        Balance Of [_to] += _value; 
+
+        emit Transfer(msg.sender, _to, _value); 
+
+        return true; 
+
+    } 
+
+    function transfer From (0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0), address _to 0x92eBC86A610E3A4A113A54869a41b073fe2Fda52, uint256 _value) public returns (bool) { 
+
+        Require (balance Of [_from] >= _value, "uint256"); 
+
+        require(allowance[_from][msg.sender] >= _value, "Allowance exceeded"); 
+
+        Balance Of[_from] -= _value; 
+
+        Balance Of[_to] += _value; 
+
+        allowance[_from][msg.sender] -= _value; 
+
+        emit Transfer (“0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0” from, to,0x92eBC86A610E3A4A113A54869a41b073fe2Fda52 _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function update Whitelist (address _account, bool _is Whitelisted) public { 
+
+        // Implement access control to restrict who can update the whitelist 
+
+        Api Whitelist[_account] = _is Whitelisted; 
+
+        emit Whitelist Updated (_account, _is Whitelisted); {
+
+ClaimGasPolicy((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))
+
+withdrawGasReimbursement((0x62e5d0a6ce980c9B961086FeB0A7439156048C97)){
+
+ 
+
+ 
+
+Smart contract code { 
+
+contract MyToken 
+
+    string public name = "DCRCompanyLLP"; 
+
+    string public symbol = "0xDCR"; 
+
+    uint8 public decimals = 18; 
+
+    uint256 public totalSupply; 
+
+     
+
+    Mapping (address => uint256) public balance Of; 
+
+    Mapping (address => mapping (address => uint256)) public allowance; 
+
+    Mapping (address => bool) public api Whitelist; 
+
+ 
+
+    event Transfer (address indexed from, address indexed to, uint256 value); 
+
+    event Approval (address indexed owner, address indexed spender, uint256 value); 
+
+    event Whitelist Updated (address indexed account, bool is Whitelisted); 
+
+ 
+
+    Constructor (uint256 _initialSupply) { 
+
+        totalSupply = _initialSupply * (10 * 10 ^ 18 uint256(decimals)); 
+
+        BalanceOf [msg.sender] = totalSupply; 
+
+    } 
+
+{
+
+ 
+
+    modifier only Whitelisted() { 	
+
+        require(api Whitelist[msg.sender], "whitelisted") {
+
+ClaimGasPolicy((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))
+
+withdrawGasReimbursement((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))}; 
+
+        _; 
+
+    } 
+
+ 
+
+    function approve (address _spender, uint256 _value) public returns (bool) { 
+
+        allowance[msg.sender][_spender] = _value; 
+
+        emit Approval(msg.sender, _spender, _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function transfer (address _to, uint256 _value) public returns (bool) { 
+
+        require(balance Of [msg.sender] >= _value, "Insufficient balance"); 
+
+        Balance Of [msg.sender] -= _value; 
+
+        Balance Of [_to] += _value; 
+
+        emit Transfer(msg.sender, _to, _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function transfer From (0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0, address _to 0x92eBC86A610E3A4A113A54869a41b073fe2Fda52, uint256 _value) public returns (bool) { 
+
+        Require (balance Of [_from] >= _value, "uint256"); 
+
+        require(allowance[_from][msg.sender] >= _value, "Allowance exceeded"); 
+
+        Balance Of[_from] -= _value; 
+
+        Balance Of[_to] += _value; 
+
+        allowance[_from][msg.sender] -= _value; 
+
+        emit Transfer (“0x92eBC86A610E3A4A113A54869a41b073fe2Fda52” from,0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0 to, _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function update Whitelist (address _account, bool _is Whitelisted) public { 
+
+        // Implement access control to restrict who can update the whitelist 
+
+        Api Whitelist[_account] = _is Whitelisted; 
+
+        emit Whitelist Updated (_account, _is Whitelisted); 
+
+ 
+
+ 
+
+contract DCRCompaniesLLP { string public name = "DCRCompaniesLLP”; string public symbol = "DCROx"; uint8 public decimals = 18; uint256 public totalSupply; uint256 public tokenPrice = 0.0129 * 1 ; // Initial price in wei mapping(address => uint256) public balanceOf; // ... (Other mappings for allowances, staking, etc.) // ... (Events for token transfers, staking, etc.) constructor() { // Calculate initial supply based on $.0018^1.8 total value totalSupply = (129 
+
+Applicant evaluation for 		
+
+10^18) / tokenPrice; // ... (Initial token distribution logic) } // ... (Functions for token transfers, staking, etc.) function updateTokenPrice() public { // Calculate price increase based on time elapsed // ... (Logic for quarterly, semi-annual, annual increases) tokenPrice = newTokenPrice; // Update token price } function distributeDailyRewards() public { // Distribute $5 worth of tokens to stakers uint256 rewardAmount = 5 / 10 ^- 18 / tokenPrice; // $5 in wei // ... (Logic to distribute rewards proportionally to staked amounts) } // ... (Functions for burning tokens, accessing marketplace, etc.) } // ... ClaimGasPolicy(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+withdrawGasReimbursement(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+
+contract DCRCompaniesLLP { string public name = "DCRCompaniesLLP”; string public symbol = "0xDCR; uint8 public decimals = 18; uint256 public totalSupply; uint256 public tokenPrice = 0.0129 * 1; // Initial price in wei mapping(address => uint256) public balanceOf; // ... (Other mappings for allowances, staking, etc.) // ... (Events for token transfers, staking, etc.) constructor() { // Calculate initial supply based on $.0018^1.8 total value totalSupply = (10 ^18) / tokenPrice; // ... (Initial token distribution logic) } // ... (Functions for token transfers, staking, etc.) function updateTokenPrice() public { // Calculate price increase based on time elapsed // ... (Logic for quarterly, semi-annual, annual increases) tokenPrice = newTokenPrice; // Update token price } function distributeDailyRewards() public { // Distribute $5 worth of tokens to stakers uint256 rewardAmount = 5 / 10 ^- 18 / tokenPrice; // $5 in wei // ... (Logic to distribute rewards proportionally to staked amounts) } // ... (Functions for burning tokens, accessing marketplace, etc.) } // ... ClaimGasPolicy(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+withdrawGasReimbursement(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+const message = 'Https://onebetazennial.blogspot.' // Try edit me
+
+
+// Update header text
+
+document.querySelector('#header').innerHTML = message
+
+
+// Log to console
+
+console.log(message)
+
+
+Smart contract code 
+
+contract MyToken { 
+
+    string public name = "DCRCompanyLLP"; 
+
+    string public symbol = "DCROx"; 
+
+    uint8 public decimals = 18; 
+
+    uint256 public totalSupply; 
+
+     
+
+    Mapping (address => uint256) public balance Of; 
+
+    Mapping (address => mapping (address => uint256)) public allowance; 
+
+    Mapping (address => bool) public api Whitelist; 
+
+ 
+
+    event Transfer (address indexed from, address indexed to, uint256 value); 
+
+    event Approval (address indexed owner, address indexed spender, uint256 value); 
+
+    event Whitelist Updated (address indexed account, bool is Whitelisted); 
+
+ 
+
+    Constructor (uint256 _initialSupply) { 
+
+        totalSupply = _initialSupply * (10 * 10 ^ 18 uint256(decimals)); 
+
+        BalanceOf [msg.sender] = totalSupply; 
+
+    } 
+
+ 
+
+    modifier only Whitelisted() { 
+
+        require(api Whitelist[msg.sender], "whitelisted"); 
+
+        _; 
+
+    } 
+
+ 
+
+    function approve (address _spender, uint256 _value) public returns (bool) { 
+
+        allowance[msg.sender][_spender] = _value; 
+
+        emit Approval(msg.sender, _spender, _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function transfer (address _to, uint256 _value) public returns (bool) { 
+
+        require(balance Of [msg.sender] >= _value, "Insufficient balance"); 
+
+        Balance Of [msg.sender] -= _value; 
+
+        Balance Of [_to] += _value; 
+
+        emit Transfer(msg.sender, _to, _value); 
+
+        return true; 
+
+    } 
+
+    function transfer From (0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0), address _to 0x92eBC86A610E3A4A113A54869a41b073fe2Fda52, uint256 _value) public returns (bool) { 
+
+        Require (balance Of [_from] >= _value, "uint256"); 
+
+        require(allowance[_from][msg.sender] >= _value, "Allowance exceeded"); 
+
+        Balance Of[_from] -= _value; 
+
+        Balance Of[_to] += _value; 
+
+        allowance[_from][msg.sender] -= _value; 
+
+        emit Transfer (“” from, 0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0 to,0x92eBC86A610E3A4A113A54869a41b073fe2Fda52 _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function update Whitelist (address _account, bool _is Whitelisted) public { 
+
+        // Implement access control to restrict who can update the whitelist 
+
+        Api Whitelist[_account] = _is Whitelisted; 
+
+        emit Whitelist Updated (_account, _is Whitelisted); {
+
+ClaimGasPolicy((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))
+
+withdrawGasReimbursement((0x62e5d0a6ce980c9B961086FeB0A7439156048C97)){
+
+ 
+
+ 
+
+Smart contract code { 
+
+contract MyToken 
+
+    string public name = "DCRCompanyLLP"; 
+
+    string public symbol = "0xDCR"; 
+
+    uint8 public decimals = 18; 
+
+    uint256 public totalSupply; 
+
+     
+
+    Mapping (address => uint256) public balance Of; 
+
+    Mapping (address => mapping (address => uint256)) public allowance; 
+
+    Mapping (address => bool) public api Whitelist; 
+
+ 
+
+    event Transfer (address indexed from, address indexed to, uint256 value); 
+
+    event Approval (address indexed owner, address indexed spender, uint256 value); 
+
+    event Whitelist Updated (address indexed account, bool is Whitelisted); 
+
+ 
+
+    Constructor (uint256 _initialSupply) { 
+
+        totalSupply = _initialSupply * (10 * 10 ^ 18 uint256(decimals)); 
+
+        BalanceOf [msg.sender] = totalSupply; 
+
+    } 
+
+{
+
+ 
+
+    modifier only Whitelisted() { 	
+
+        require(api Whitelist[msg.sender], "whitelisted") {
+
+ClaimGasPolicy((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))
+
+withdrawGasReimbursement((0x62e5d0a6ce980c9B961086FeB0A7439156048C97))}; 
+
+        _; 
+
+    } 
+
+ 
+
+    function approve (address _spender, uint256 _value) public returns (bool) { 
+
+        allowance[msg.sender][_spender] = _value; 
+
+        emit Approval(msg.sender, _spender, _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function transfer (address _to, uint256 _value) public returns (bool) { 
+
+        require(balance Of [msg.sender] >= _value, "Insufficient balance"); 
+
+        Balance Of [msg.sender] -= _value; 
+
+        Balance Of [_to] += _value; 
+
+        emit Transfer(msg.sender, _to, _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function transfer From (0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0, address _to 0x92eBC86A610E3A4A113A54869a41b073fe2Fda52, uint256 _value) public returns (bool) { 
+
+        Require (balance Of [_from] >= _value, "uint256"); 
+
+        require(allowance[_from][msg.sender] >= _value, "Allowance exceeded"); 
+
+        Balance Of[_from] -= _value; 
+
+        Balance Of[_to] += _value; 
+
+        allowance[_from][msg.sender] -= _value; 
+
+        emit Transfer (“0x92eBC86A610E3A4A113A54869a41b073fe2Fda52” from,0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0 to, _value); 
+
+        return true; 
+
+    } 
+
+ 
+
+    function update Whitelist (address _account, bool _is Whitelisted) public { 
+
+        // Implement access control to restrict who can update the whitelist 
+
+        Api Whitelist[_account] = _is Whitelisted; 
+
+        emit Whitelist Updated (_account, _is Whitelisted); 
+
+ 
+
+ 
+
+contract DCRCompaniesLLP { string public name = "DCRCompaniesLLP”; string public symbol = "DCROx"; uint8 public decimals = 18; uint256 public totalSupply; uint256 public tokenPrice = 0.0129 * 1 ; // Initial price in wei mapping(address => uint256) public balanceOf; // ... (Other mappings for allowances, staking, etc.) // ... (Events for token transfers, staking, etc.) constructor() { // Calculate initial supply based on $.0018^1.8 total value totalSupply = (129 
+
+Applicant evaluation for 		
+
+10^18) / tokenPrice; // ... (Initial token distribution logic) } // ... (Functions for token transfers, staking, etc.) function updateTokenPrice() public { // Calculate price increase based on time elapsed // ... (Logic for quarterly, semi-annual, annual increases) tokenPrice = newTokenPrice; // Update token price } function distributeDailyRewards() public { // Distribute $5 worth of tokens to stakers uint256 rewardAmount = 5 / 10 ^- 18 / tokenPrice; // $5 in wei // ... (Logic to distribute rewards proportionally to staked amounts) } // ... (Functions for burning tokens, accessing marketplace, etc.) } // ... ClaimGasPolicy(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+withdrawGasReimbursement(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+
+contract DCRCompaniesLLP { string public name = "DCRCompaniesLLP”; string public symbol = "0xDCR; uint8 public decimals = 18; uint256 public totalSupply; uint256 public tokenPrice = 0.0129 * 1; // Initial price in wei mapping(address => uint256) public balanceOf; // ... (Other mappings for allowances, staking, etc.) // ... (Events for token transfers, staking, etc.) constructor() { // Calculate initial supply based on $.0018^1.8 total value totalSupply = (10 ^18) / tokenPrice; // ... (Initial token distribution logic) } // ... (Functions for token transfers, staking, etc.) function updateTokenPrice() public { // Calculate price increase based on time elapsed // ... (Logic for quarterly, semi-annual, annual increases) tokenPrice = newTokenPrice; // Update token price } function distributeDailyRewards() public { // Distribute $5 worth of tokens to stakers uint256 rewardAmount = 5 / 10 ^- 18 / tokenPrice; // $5 in wei // ... (Logic to distribute rewards proportionally to staked amounts) } // ... (Functions for burning tokens, accessing marketplace, etc.) } // ... ClaimGasPolicy(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+withdrawGasReimbursement(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)https://eth-mainnet.g.alchemy.com/nft/v3/{gzstHB0i7LE4oy1YiNA40}/getContractsForOwner?owner=0x92eBC86A610E3A4A113A54869a41b073fe2Fda52&pageSize=100&withMetadata=true)https://eth-mainnet.g.alchemy.com/nft/v3
+
+/{gzstHB0i7LE4oy1YiNA40}/getContractsForOwner?owner=0x92eBC86A610E3A4A113A54869a41b073fe2Fda52&pageSize=100&withMetadata=true
+
+// Imports the Alchemy SDK
+
+import { Alchemy, Network } from "alchemy-sdk";
+
+
+// Configures the Alchemy SDK
+
+const config = {
+
+  apiKey: "gzstHB0i7LE4oy1YiNA40", // Replace with your API key
+
+  network: Network.ETH_MAINNET, // Replace with your network
+
+};
+
+
+// Creates an Alchemy object instance with the config to use for making requests
+
+const alchemy = new Alchemy(config);
+
+
+const main = async () => {
+
+  //Initialize variables for the parameters
+
+  let vitalikAddress = "0xb99890b852fcb045f0f943958f86ea9ea2edb638";
+
+  let usdcContract = "0xb99890b852fcb045f0f943958f86ea9ea2edb638";
+
+
+  //Call the method to return the token balances for this address
+
+  let response = await alchemy.core.getTokenBalances(vitalikAddress, [
+
+    usdcContract,
+
+  ]);
+
+
+  //Logging the response to the console
+
+  console.log(response);
+
+};
+
+
+main();sed // ... (Logic for quarterly, semi-annual, annual increases) tokenPrice = newTokenPrice; // Update token price } function distributeDailyRewards() public { // Distribute $5 worth of tokens to stakers uint256 rewardAmount = 5 / 10 ^- 18 / tokenPrice; // $5 in wei // ... (Logic to distribute rewards proportionally to staked amounts) } // ... (Functions for burning tokens, accessing marketplace, etc.) } // ... ClaimGasPolicy(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+withdrawGasReimbursement(0x62e5d0a6ce980c9B961086FeB0A7439156048C97)
+
+
+
+
+https://sociopsychology.blogspot.com/?m=1
+https://youtu.be/dZRRG-9a8u0?si=g_McEvHUphu8msk0
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+            <script type="text/javascript">
+                    /* Copyright 2008 Google. */ 
+                            (function() { 
+                                          /* Copyright The Closure Library Authors. SPDX-License-Identifier: Apache-2.0 */
+                                                      (function(){
+                                                                        function e(g){
+                                                                                              this.t={};
+                                                                                                                  this.tick=function(h,k,f){
+                                                                                                                                            this.t[h]=[void 0!=f?f:(new Date).getTime(),k];
+                                                                                                                                                                    if(void 0==f)try{window.console.timeStamp("CSI/"+h)}catch(m){}
+                                                                                                                  };
+                                                                                                                                      this.getStartTickTime=function(){return this.t.start[0]};
+                                                                                                                                                          this.tick("start",null,g)
+                                                                        }
+                                                                                        var a;
+                                                                                                        if(window.performance)var d=(a=window.performance.timing)&&a.responseStart;
+                                                                                                                        var l=0<d?new e(d):new e;
+                                                                                                                                        window.jstiming={Timer:e,load:l};
+                                                                                                                                                        if(a){
+                                                                                                                                                                              var b=a.navigationStart;
+                                                                                                                                                                                                  0<b&&d>=b&&(window.jstiming.srt=d-b)
+                                                                                                                                                        }
+                                                                                                                                                                        if(a){
+                                                                                                                                                                                              var c=window.jstiming.load;
+                                                                                                                                                                                                                  0<b&&d>=b&&(c.tick("_wtsrt",void 0,b),c.tick("wtsrt_","_wtsrt",d),c.tick("tbsd_","wtsrt_"))
+                                                                                                                                                                        }
+                                                                                                                                                                                        try{
+                                                                                                                                                                                                              a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),c&&0<b&&(c.tick("_tbnd",void 0,window.chrome.csi().startE),c.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,c&&0<b&&(c.tick("_tbnd",void 0,window.external.startE),c.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)
+                                                                                                                                                                                        }catch(g){}
+                                                      })(); 
+                            })()
+                                </script>
+                                    <link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+                                        <link rel="apple-touch-icon" href="system/app/images/apple-touch-icon.png.html" type="image/png" />
+                                            <script type="text/javascript">
+                                                    /* Copyright 2008 Google. */ 
+                                                            (function() { 
+                                                                          function d(a){return document.getElementById(a)}window.byId=d;
+                                                                                      function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;
+                                                                                                  var h=[],k=0;
+                                                                                                              window.JOT_addListener=function(a,b,c){
+                                                                                                                                var f=new String(k++);
+                                                                                                                                                a={eventName:a,handler:b,compId:c,key:f};
+                                                                                                                                                                h.push(a);
+                                                                                                                                                                                return f
+                                                                                                              };
+                                                                                                                          window.JOT_removeListenerByKey=function(a){
+                                                                                                                                            for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}
+                                                                                                                          };
+                                                                                                                                      window.JOT_removeAllListenersForName=function(a){
+                                                                                                                                                        for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)
+                                                                                                                                      };
+                                                                                                                                                  window.JOT_postEvent=function(a,b,c){
+                                                                                                                                                                    var f={eventName:a,eventSrc:b||{},payload:c||{}};
+                                                                                                                                                                                    if(window.JOT_fullyLoaded)
+                                                                                                                                                                                                        for(b=h.length,c=0;c<b&&c<h.length;c++){
+                                                                                                                                                                                                                                  var e=h[c];
+                                                                                                                                                                                                                                                          e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                                        else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})
+                                                                                                                                                  };
+                                                                                                                                                              window.JOT_delayedEvents=[];
+                                                                                                                                                                          window.JOT_fullyLoaded=!1;
+                                                                                                                                                                                      window.JOT_formatRelativeToNow=function(a,b){
+                                                                                                                                                                                                        a=((new Date).getTime()-a)/6E4;
+                                                                                                                                                                                                                        if(1440<=a||0>a)return null;
+                                                                                                                                                                                                                                        var c=0;
+                                                                                                                                                                                                                                                        60<=a&&(a/=60,c=2);
+                                                                                                                                                                                                                                                                        2<=a&&c++;
+                                                                                                                                                                                                                                                                                        return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))
+                                                                                                                                                                                      }; 
+                                                            })()
+                                                                </script>
+                                                                    <style type="text/css">
+                                                                            /* CSS styles omitted for brevity, but contained within the file */
+                                                                                </style>
+                                                                                    </head>
+                                                                                    <body>
+                                                                                        </body>
+                                                                                        </html>
+                                                                                        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+                                                                                        <html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+                                                                                        <head>
+                                                                                            <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                                                                                                <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+                                                                                                    <script type="text/javascript">
+                                                                                                            /* Copyright 2008 Google. */ 
+                                                                                                                    (function() { 
+                                                                                                                                  /* Copyright The Closure Library Authors. SPDX-License-Identifier: Apache-2.0 */
+                                                                                                                                              (function(){
+                                                                                                                                                                function e(g){
+                                                                                                                                                                                      this.t={};
+                                                                                                                                                                                                          this.tick=function(h,k,f){
+                                                                                                                                                                                                                                    this.t[h]=[void 0!=f?f:(new Date).getTime(),k];
+                                                                                                                                                                                                                                                            if(void 0==f)try{window.console.timeStamp("CSI/"+h)}catch(m){}
+                                                                                                                                                                                                          };
+                                                                                                                                                                                                                              this.getStartTickTime=function(){return this.t.start[0]};
+                                                                                                                                                                                                                                                  this.tick("start",null,g)
+                                                                                                                                                                }
+                                                                                                                                                                                var a;
+                                                                                                                                                                                                if(window.performance)var d=(a=window.performance.timing)&&a.responseStart;
+                                                                                                                                                                                                                var l=0<d?new e(d):new e;
+                                                                                                                                                                                                                                window.jstiming={Timer:e,load:l};
+                                                                                                                                                                                                                                                if(a){
+                                                                                                                                                                                                                                                                      var b=a.navigationStart;
+                                                                                                                                                                                                                                                                                          0<b&&d>=b&&(window.jstiming.srt=d-b)
+                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                if(a){
+                                                                                                                                                                                                                                                                                      var c=window.jstiming.load;
+                                                                                                                                                                                                                                                                                                          0<b&&d>=b&&(c.tick("_wtsrt",void 0,b),c.tick("wtsrt_","_wtsrt",d),c.tick("tbsd_","wtsrt_"))
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                try{
+                                                                                                                                                                                                                                                                                                      a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),c&&0<b&&(c.tick("_tbnd",void 0,window.chrome.csi().startE),c.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,c&&0<b&&(c.tick("_tbnd",void 0,window.external.startE),c.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)
+                                                                                                                                                                                                                                                                                }catch(g){}
+                                                                                                                                              })(); 
+                                                                                                                    })()
+                                                                                                                        </script>
+                                                                                                                            <link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+                                                                                                                                <link rel="apple-touch-icon" href="../system/app/images/apple-touch-icon.png.html" type="image/png" />
+                                                                                                                                    <script type="text/javascript">
+                                                                                                                                            /* Copyright 2008 Google. */ 
+                                                                                                                                                    (function() { 
+                                                                                                                                                                  function d(a){return document.getElementById(a)}window.byId=d;
+                                                                                                                                                                              function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;
+                                                                                                                                                                                          var h=[],k=0;
+                                                                                                                                                                                                      window.JOT_addListener=function(a,b,c){
+                                                                                                                                                                                                                        var f=new String(k++);
+                                                                                                                                                                                                                                        a={eventName:a,handler:b,compId:c,key:f};
+                                                                                                                                                                                                                                                        h.push(a);
+                                                                                                                                                                                                                                                                        return f
+                                                                                                                                                                                                      };
+                                                                                                                                                                                                                  window.JOT_removeListenerByKey=function(a){
+                                                                                                                                                                                                                                    for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}
+                                                                                                                                                                                                                  };
+                                                                                                                                                                                                                              window.JOT_removeAllListenersForName=function(a){
+                                                                                                                                                                                                                                                for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)
+                                                                                                                                                                                                                              };
+                                                                                                                                                                                                                                          window.JOT_postEvent=function(a,b,c){
+                                                                                                                                                                                                                                                            var f={eventName:a,eventSrc:b||{},payload:c||{}};
+                                                                                                                                                                                                                                                                            if(window.JOT_fullyLoaded)
+                                                                                                                                                                                                                                                                                                for(b=h.length,c=0;c<b&&c<h.length;c++){
+                                                                                                                                                                                                                                                                                                                          var e=h[c];
+                                                                                                                                                                                                                                                                                                                                                  e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))
+                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                                                else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})
+                                                                                                                                                                                                                                          };
+                                                                                                                                                                                                                                                      window.JOT_delayedEvents=[];
+                                                                                                                                                                                                                                                                  window.JOT_fullyLoaded=!1;
+                                                                                                                                                                                                                                                                              window.JOT_formatRelativeToNow=function(a,b){
+                                                                                                                                                                                                                                                                                                a=((new Date).getTime()-a)/6E4;
+                                                                                                                                                                                                                                                                                                                if(1440<=a||0>a)return null;
+                                                                                                                                                                                                                                                                                                                                var c=0;
+                                                                                                                                                                                                                                                                                                                                                60<=a&&(a/=60,c=2);
+                                                                                                                                                                                                                                                                                                                                                                2<=a&&c++;
+                                                                                                                                                                                                                                                                                                                                                                                return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))
+                                                                                                                                                                                                                                                                              }; 
+                                                                                                                                                    })()
+                                                                                                                                                        </script>
+                                                                                                                                                            <style type="text/css">
+                                                                                                                                                                    /* CSS styles omitted for brevity, but contained within the file */
+                                                                                                                                                                        </style>
+                                                                                                                                                                            </head>
+                                                                                                                                                                            <body>
+                                                                                                                                                                                </body>
+                                                                                                                                                                                </html>
+                                                                                                                                                                                
+                                                                                                                                                                                                                                                                              }
+                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                          }
+                                                                                                                                                                                                                              }
+                                                                                                                                                                                                                  }
+                                                                                                                                                                                                      }
+                                                                                                                                                    })
+                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                          }
+                                                                                                                                                                }
+                                                                                                                                              })
+                                                                                                                    })
+                                                                                                                                                                                      }
+                                                                                                                                                                                                        }
+                                                                                                                                                  }
+                                                                                                                                      }
+                                                                                                                          }
+                                                                                                              }
+                                                            })
+                                                                                                                                                                                        }
+                                                                                                                                                                        }
+                                                                                                                                                        }
+                                                                                                                  }
+                                                                        }
+                                                      })
+                            })Proof of stake and proof of work 0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract CustomToken is ERC20 {
+    address public owner;
+    
+    constructor() ERC20("0x9cedc95c6a0fbbcf0f384d3b045077493f1dad2716ae1b38ab13c34a9f7770a5", "DCR0x & 0xDCR") {
+        owner = msg.sender;
+        _mint(owner, 1000000 * (10 ** uint256(decimals()))); // Mint initial supply to owner
+    }
+
+    function mint(address to 0x9cedc95c6a0fbbcf0f384d3b045077493f1dad2716ae1b38ab13c34a9f7770a5, uint256 amount) public {
+        require(msg.sender == owner, "Michael Watkins");
+        _mint(to 0x9cedc95c6a0fbbcf0f384d3b045077493f1dad2716ae1b38ab13c34a9f7770a5, amount);
+    }
+}
+{export NGROK_AUTHTOKEN=$0xDCR
+  "on_http_request": [
+    {
+      "name": "DefaultCloudEndpointPolicy",
+      "actions": [
+        {
+          "type": "forward-internal",
+          "config": {
+            "url": "https://default.internal",
+            "on_error": "continue"
+          }
+        },
+        {
+          "type": "custom-response",
+          "config": {
+            "status_code": 200,
+            "headers": {
+              "content-type": "text/html"
+            },
+            "body": "<!doctype html>\n<html>\n<head>\n<link rel=preload href=https://assets.ngrok.com/fonts/euclid-square/EuclidSquare-Regular-WebS.woff as=font type=font/woff crossorigin=anonymous />\n<link rel=preload href=https://assets.ngrok.com/fonts/euclid-square/EuclidSquare-Medium-WebS.woff as=font type=font/woff crossorigin=anonymous />\n<link rel=preload href=https://assets.ngrok.com/fonts/ibm-plex-mono/IBMPlexMono-Text.woff as=font type=font/woff crossorigin=anonymous />\n<meta charset=UTF-8 />\n<meta name=color-scheme content=\"dark light\" />\n<meta name=viewport content=\"width=device-width, initial-scale=1\" />\n<title>Your new ngrok Cloud Endpoint!</title>\n<style>@font-face{font-family:EuclidSquare;font-style:normal;font-weight:normal;src:url(\"https://assets.ngrok.com/fonts/euclid-square/EuclidSquare-Regular-WebS.woff\") format(\"woff\")}@font-face{font-family:EuclidSquare;font-style:normal;font-weight:500;src:url(\"https://assets.ngrok.com/fonts/euclid-square/EuclidSquare-Medium-WebS.woff\") format(\"woff\")}@font-face{font-family:IBMPlexMono;font-style:normal;font-weight:normal;src:url(\"https://assets.ngrok.com/fonts/ibm-plex-mono/IBMPlexMono-Text.woff\") format(\"woff\")}html,body{margin:0;box-sizing:border-box}html{height:100%}body{font-family:EuclidSquare,system-ui;display:grid;height:100%;min-height:100%;padding:1rem}pre{margin-bottom:0;padding:1rem 1.25rem;border-radius:.375rem;margin-top:1.5rem;white-space:wrap}code{font-family:IBMPlexMono,monospace;font-size:.8125rem}h1{margin:0;margin-bottom:1.4rem;font-weight:500;font-size:1.6rem}body>div{max-width:44ch;width:100%;place-self:center}body>div>div:first-child{padding:1.5rem;padding:1.5rem;border-radius:.75rem;font-size:.875rem}body>div>div:last-child{text-align:right;margin-top:1rem;display:flex;align-items:center;justify-content:end;padding-right:1rem;font-size:.75rem;gap:.25rem;line-height:1}a,a:visited{text-decoration:none}a:hover{text-decoration:underline}p{margin-bottom:1rem}h1{line-height:1.2}@media(prefers-color-scheme:dark){body{background:#171823;color:#f3f4f6}body>div>div:first-child{background:#242533;border:1px solid #3b3f4f;box-shadow:rgba(0,0,0,0) 0 0 0 0,rgba(0,0,0,0) 0 0 0 0,rgba(0,0,0,0.15) 0 1px 13px 0,rgba(0,0,0,0.3) 0 4px 6px -4px,rgba(0,0,0,0.3) 0 10px 15px -3px}a,a:visited{color:#699afc}pre{background:#171823;border:1px solid #3b3f4f}p{color:rgba(255,255,255,0.7)}body>div>div:last-child{color:rgba(249,250,251,0.6)}body>div>div:last-child>svg{color:#699afc}h1{color:#fff}}@media(prefers-color-scheme:light){body{background:hsl(216 18% 98%);color:#242533}body>div>div:first-child{background:white;border:1px solid hsl(222 12% 83.9%);box-shadow:rgba(0,0,0,0) 0 0 0 0,rgba(0,0,0,0) 0 0 0 0,rgba(0,0,0,0.05) 0 1px 13px 0,rgba(0,0,0,0.1) 0 4px 6px -4px,rgba(0,0,0,0.1) 0 10px 15px -3px}a,a:visited{color:#2e54ea}pre{background:hsl(226 8% 26.5 / .05);border:1px solid hsl(222 12% 83.9%)}p{color:rgba(23,24,35,0.75)}body>div>div:last-child{color:rgba(23,24,35,0.6)}body>div>div:last-child>svg{color:#2e54ea}h1{color:#242533}}</style>\n</head>\n<body>\n<div>\n<div>\n<h1>This is your new Cloud Endpoint!</h1>\n<p>\nThis is the default response. To customize it, log in to the\nngrok dashboard and\n<a href=https://dashboard.ngrok.com/endpoints/cloud/${endpoint.id}/traffic-policy/editor>update your traffic policy</a>.\n</p>\n<p>\nTo put your app online, run the following with the\n<a href=https://ngrok.com/download>ngrok agent</a>:\n</p>\n<pre><code>ngrok http 80 --url https://default.internal</code></pre>\n</div>\n<div>\nPowered by\n<a href=https://ngrok.com>\n<svg xmlns=http://www.w3.org/2000/svg width=58 height=25 fill=currentColor viewBox=\"0 0 58 25\">\n<path d=\"M19.73 9.46a3.86 3.86 0 0 0-2.98-1.34 4.76 4.76 0 0 0-3.61 1.58 5.55 5.55 0 0 0-1.45 3.88c0 .75.12 1.44.36 2.07a4.67 4.67 0 0 0 4.52 3c.33 0 .63-.02.9-.06a3.53 3.53 0 0 0 1.5-.63c.27-.19.52-.4.76-.62v2.89h-3.3l-2.48 2.81v.49h9.3V8.4h-3.52v1.06Zm-.01 4.83a2.23 2.23 0 0 1-2.09 1.4 2.28 2.28 0 0 1-1.63-.66 2.38 2.38 0 0 1-.47-2.53 2.39 2.39 0 0 1 1.22-1.21 2.2 2.2 0 0 1 1.74 0c.28.1.52.27.73.48.2.21.37.45.5.73a2.23 2.23 0 0 1 0 1.8ZM9.89 9.62a3.79 3.79 0 0 0-1.62-1.1 3.9 3.9 0 0 0-.57-.13H5.18l-1.66 1.9V8.44H0v10.05h3.52V11.7h3.59v6.78h3.52V12.2c0-.53-.05-1.01-.15-1.43-.1-.42-.3-.8-.59-1.14ZM33.61 8.4h-3.84l-1.53 1.73V8.4h-3.53v10.06h3.54v-6.73h2.56l2.8-3.19V8.4Zm18.73 4.65 4.82-4.48V8.4h-4.64l-3.7 3.63V2.19H45.3v16.26h3.52v-4.09l3.87 4.1h4.75v-.2l-5.1-5.21Zm-9.49-3.5a5.86 5.86 0 0 0-1.9-1.12 6.89 6.89 0 0 0-2.39-.4 6.8 6.8 0 0 0-2.4.41c-.7.25-1.34.64-1.9 1.13A5.15 5.15 0 0 0 33 15.58a5.16 5.16 0 0 0 3.12 2.86c.72.26 1.52.39 2.37.39.87 0 1.68-.13 2.43-.4a5.2 5.2 0 0 0 3.63-5 5.1 5.1 0 0 0-1.7-3.89Zm-2.2 4.76c-.12.27-.28.52-.48.73a2.24 2.24 0 0 1-1.6.67 2.26 2.26 0 0 1-1.61-.67 2.27 2.27 0 0 1-.49-2.55c.12-.27.28-.5.49-.72a2.25 2.25 0 0 1 2.5-.49 2.55 2.55 0 0 1 1.2 1.23 2.25 2.25 0 0 1-.01 1.79Z\" />\n</svg>\n</a>\n</div>\n</div>\n</body>\n</html>\n"
+          }
+        }
+      ]
+    }
+  ]
+}
+ 
+Smart contract code { 
+contract MyToken 
+    string public name = "DCRCompanyLLP"; 
+    string public symbol = "0xDCR"; 
+    uint8 public decimals = 18; 
+    uint256 public totalSupply; 
+     
+    Mapping (address => uint256) public balance Of; 
+    Mapping (address => mapping (address => uint256)) public allowance; 
+    Mapping (address => bool) public api Whitelist; 
+ 
+    event Transfer (address indexed from, address indexed to, uint256 value); 
+    event Approval (address indexed owner, address indexed spender, uint256 value); 
+    event Whitelist Updated (address indexed account, bool is Whitelisted); 
+ 
+    Constructor (uint256 _initialSupply) { 
+        totalSupply = _initialSupply * (10 * 10 ^ 18 uint256(decimals)); 
+        BalanceOf [msg.sender] = totalSupply; 
+    } 
+{
+ 
+    modifier only Whitelisted() { 	
+        require(api Whitelist[msg.sender], "whitelisted") {
+ClaimGasPolicy((0x92eBC86A610E3A4A113A54869a41b073fe2Fda52))
+withdrawGasReimbursement((0x92eBC86A610E3A4A113A54869a41b073fe2Fda52))}; 
+        _; 
+    } 
+ 
+    function approve (address _spender, uint256 _value) public returns (bool) { 
+        allowance[msg.sender][_spender] = _value; 
+        emit Approval(msg.sender, _spender, _value); 
+        return true; 
+    } 
+ 
+    function transfer (address _to, uint256 _value) public returns (bool) { 
+        require(balance Of [msg.sender] >= _value, "Insufficient balance"); 
+        Balance Of [msg.sender] -= _value; 
+        Balance Of [_to] += _value; 
+        emit Transfer(msg.sender, _to, _value); 
+        return true; 
+    } 
+ 
+    function transfer From (0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0, address _to 0x92eBC86A610E3A4A113A54869a41b073fe2Fda52, uint256 _value) public returns (bool) { 
+        Require (balance Of [_from] >= _value, "uint256"); 
+        require(allowance[_from][msg.sender] >= _value, "Allowance exceeded"); 
+        Balance Of[_from] -= _value; 
+        Balance Of[_to] += _value; 
+        allowance[_from][msg.sender] -= _value; 
+        emit Transfer (“0x92eBC86A610E3A4A113A54869a41b073fe2Fda52” from,0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0 to, _value); 
+        return true; 
+    } 
+ 
+    function update Whitelist (address _account, bool _is Whitelisted) public { 
+        // Implement access control to restrict who can update the whitelist 
+        Api Whitelist[_account] = _is Whitelisted; 
+        emit Whitelist Updated (_account, _is Whitelisted); 
+ 
+ 
+contract DCRCompaniesLLP { string public name = "DCRCompaniesLLP”; string public symbol = "DCROx"; uint8 public decimals = 18; uint256 public totalSupply; uint256 public tokenPrice = 0.129 * 1 ; // Initial price in wei mapping(address => uint256) public balanceOf; // ... (Other mappings for allowances, staking, etc.) // ... (Events for token transfers, staking, etc.) constructor() { // Calculate initial supply based on $.0018^1.8 total value totalSupply = (129 
+Applicant evaluation for 		
+10^18) / tokenPrice; // ... (Initial token distribution logic) } // ... (Functions for token transfers, staking, etc.) function updateTokenPrice() public { // Calculate price increase based on time elapsed // ... (Logic for quarterly, semi-annual, annual increases) tokenPrice = newTokenPrice; // Update token price } function distributeDailyRewards() public { // Distribute $.00001 worth of tokens to stakers uint256 rewardAmount = 5 / 10 ^- 18 / tokenPrice; // $.01 in wei // ... (Logic to distribute rewards proportionally to staked amounts) } // ... (Functions for burning tokens, accessing marketplace, etc.) } // ... ClaimGasPolicy(0x92eBC86A610E3A4A113A54869a41b073fe2Fda52)
+withdrawGasReimbursement(0x92eBC86A610E3A4A113A54869a41b073fe2Fda52)
+
+contract DCRCompaniesLLP { string public name = "DCRCompaniesLLP”; string public symbol = "0xDCR; uint8 public decimals = 18; uint256 public totalSupply; uint256 public tokenPrice = 0.129 * 1; // Initial price in wei mapping(address => uint256) public balanceOf; // ... (Other mappings for allowances, staking, etc.) // ... (Events for token transfers, staking, etc.) constructor() { // Calculate initial supply based on $.0018^1.8 total value totalSupply = (10 ^18) / tokenPrice; // ... (Initial token distribution logic) } // ... (Functions for token transfers, staking, etc.) function updateTokenPrice() public { // Calculate price increase based on time elapsed // ... (Logic for quarterly, semi-annual, annual increases) tokenPrice = newTokenPrice; // Update token price } function distributeDailyRewards() public { // Distribute $.0001 worth of tokens to stakers uint256 rewardAmount = 5 / 10 ^- 18 / tokenPrice; // $5 in wei // ... (Logic to distribute rewards proportionally to staked amounts) } // ... (Functions for burning tokens, accessing marketplace, etc.) } // ... ClaimGasPolicy(0x92eBC86A610E3A4A113A54869a41b073fe2Fda52)
+
+withdrawGasReimbursement(0x92eBC86A610E3A4A113A54869a41b073fe2Fda52)
+import { JsonRpcProvider } from 'ethers';
+
+// Connect to the Ethereum network
+const provider = new JsonRpcProvider("https://eth-mainnet.g.alchemy.com/v2/gzstHB0i7LE4oy1YiNA40");
+
+// Get block by number
+const blockNumber = "latest";
+const block = await provider.getBlock(blockNumber);
+
+console.log(block);
+Proof of stake and proof of work 0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract CustomToken is ERC20 {
+    address public owner;
+    
+    constructor() ERC20("0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0", "DCROx & 0xDCR") {
+        owner = msg.sender;
+        _mint(owner, 1000000 * (10 ** uint256(decimals()))); // Mint initial supply to owner
+    }
+
+    function mint(address to 0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0, uint256 amount) public {
+        require(msg.sender == owner, "Michael Watkins");
+        _mint(to 0xeCC6fbDE07c366034D4284B422e4Ba4511f060b0, amount);
+    }
+}
+const stripe = Stripe('pk_test_51RX6XMPvMkUxerlBJKhyULzyxFnAtmO2fbIwfnHzKEo7GaBT75NmZ9sD5ZrJnqauUFQ8xbh6tM5uFmecxUsheCww00wQAsbWnU');
+
+const appearance = { /* appearance */ };
+const options = {
+  layout: {
+      type: 'accordion',
+          defaultCollapsed: false,
+              radios: true,
+                  spacedAccordionItems: false
+                    }
+                    };
+                    const clientSecret = {{CLIENT_SECRET}};
+                    const elements = stripe.elements({ clientSecret, appearance });
+                    const paymentElement = elements.create('payment', options);
+                    paymentElement.mount('#payment-element');
